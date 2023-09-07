@@ -1,7 +1,11 @@
-#
+# 傲软抠图，傲软扫描，傲软PDF转换，傲软PDF编辑，傲软投屏，咖映，轻闪PDF，乃糖小组件，佐糖，佐糖照片修复
+HOST-SUFFIX,aoscdn.com,UnlockVIP-Myself
+HOST-SUFFIX,apsapp.cn,UnlockVIP-Myself
+# Nicegram
 HOST,speed.restore-access.indream.app,UnlockVIP-Myself
-#
+#Fimo_复古胶片相机
 HOST,server.zbisq.com,UnlockVIP-Myself
+#解锁10个APP，包含APP：Filmicpro，Focos，Focos live，Splice，30 Day Fitness，Sleep，Remini，Yoga Wave，Firstlight，Doubletake
 HOST-SUFFIX,oracle.bendingspoonsapps.com,UnlockVIP-Myself
 #Xmind
 HOST,www.xmind.*,UnlockVIP-Myself
@@ -67,8 +71,6 @@ HOST,meditation.snailsleep.net,UnlockVIP-Myself
 HOST,mb3admin.com,UnlockVIP-Myself
 #Drops
 HOST,lambda.us-east-1.amazonaws.com,UnlockVIP-Myself
-#
-HOST,oracle.bendingspoonsapps.com,UnlockVIP-Myself
 #Kinemaster
 HOST,api-kinemaster-assetstore.kinemasters.com,UnlockVIP-Myself
 #Slidebox
