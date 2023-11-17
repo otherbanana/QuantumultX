@@ -14,7 +14,7 @@ HOST,server.zbisq.com,UnlockVIP-Myself
 #解锁10个APP，包含APP：Filmicpro，Focos，Focos live，Splice，30 Day Fitness，Sleep，Remini，Yoga Wave，Firstlight，Doubletake
 HOST-SUFFIX,oracle.bendingspoonsapps.com,UnlockVIP-Myself
 #Xmind
-HOST,www.xmind.*,UnlockVIP-Myself
+HOST,*xmind.*,UnlockVIP-Myself
 #notability
 HOST-SUFFIX,notability.com,UnlockVIP-Myself
 #goodnotes
