@@ -1,8 +1,0 @@
-#!url=https://raw.githubusercontent.com/otherbanana/QuantumultX/main/unlockvip.sgmodule
-#!name=APP解锁
-#!desc=自用@otherbanana
-
-[MITM]
-hostname = speed.restore-access.indream.app,server.zbisq.com,oracle.bendingspoonsapps.com,www.xmind.*,notability.com,isi.csan.goodnotes.com,apiet.58lcjy.com,dida365.com,mobile-api.adgurad.com,apimboom2.globaldelight.net,camera360.com,api.calm.com,backend.getdrafts.com,dayone.me,license.pdfexpert.com,secure.istreamer.com,sk.ulysses.app,api.revenuecat.com,api.interpreter.caiyunai.com,biz.caiyunapp.com,p.du.163.com,book.haitunwallet.com,mubu.com,vira.lisapp.com,api-cs.intsig.net,www.40sishi.com,api-production.endel.io,tide-api.moreless.io,subs.platforms.team,rap.duetdisplay.com,api.faceapp.io,appapi.neuralprisma.com,meditation.snailsleep.net,mb3admin.com,lambda.us-east-1.amazonaws.com,oracle.bendingspoonsapps.com,api-kinemaster-assetstore.kinemasters.com,asia-east2-slidebox-ios-prod.cloudfunctions.net,subscription-service.neuralprisma.com,*.aoscdn.com,*.apsapp.cn
-[Rule]
-RULE-SET,https://ghproxy.com/https://raw.githubusercontent.com/otherbanana/QuantumultX/main/unlockvip.list,Unlock
