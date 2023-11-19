@@ -1,3 +1,10 @@
+# NAME: APP解锁
+# AUTHOR: @otherbanana
+# REPO: https://github.com/otherbanana/Shadowrocket
+# UPDATED: 2023-11-19
+
+#Revenuecat系列（）
+HOST,api.revenuecat.com,UnlockVIP-Myself
 # 幕布
 HOST,api2.mubu.com,UnlockVIP-Myself
 # 小熊油耗
@@ -14,13 +21,12 @@ HOST,server.zbisq.com,UnlockVIP-Myself
 #解锁10个APP，包含APP：Filmicpro，Focos，Focos live，Splice，30 Day Fitness，Sleep，Remini，Yoga Wave，Firstlight，Doubletake
 HOST-SUFFIX,oracle.bendingspoonsapps.com,UnlockVIP-Myself
 #Xmind
-HOST,*xmind.*,UnlockVIP-Myself
+HOST,*.xmind.*,UnlockVIP-Myself
+HOST,www.xmind.cn,UnlockVIP-Myself
 #notability
 HOST-SUFFIX,notability.com,UnlockVIP-Myself
 #goodnotes
 HOST,isi.csan.goodnotes.com,UnlockVIP-Myself
-#
-HOST,apiet.58lcjy.com,UnlockVIP-Myself
 #滴答清单 版本需要<=6.3.80
 HOST,dida365.com,UnlockVIP-Myself
 #Adguard
@@ -41,8 +47,6 @@ HOST,license.pdfexpert.com,UnlockVIP-Myself
 HOST,secure.istreamer.com,UnlockVIP-Myself
 #Ulysses
 HOST,sk.ulysses.app,UnlockVIP-Myself
-#VSCO
-HOST,api.revenuecat.com,UnlockVIP-Myself
 #彩云小译、彩云天气
 HOST,api.interpreter.caiyunai.com,UnlockVIP-Myself
 HOST,biz.caiyunapp.com,UnlockVIP-Myself
@@ -50,8 +54,6 @@ HOST,biz.caiyunapp.com,UnlockVIP-Myself
 HOST,p.du.163.com,UnlockVIP-Myself
 #海豚记账
 HOST,book.haitunwallet.com,UnlockVIP-Myself
-#幕布
-HOST,mubu.com,UnlockVIP-Myself
 #流利阅读
 HOST,vira.lisapp.com,UnlockVIP-Myself
 #扫描全能王
