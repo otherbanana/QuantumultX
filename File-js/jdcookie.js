@@ -3,7 +3,7 @@
 京东抓取pt_key，自用
 
 [rewrite_local]
-^https:\/\/mars\.jd\.com\/log\/sdk\/v2 -url script-request-header jdcookie.js
+^https:\/\/mars\.jd\.com\/log\/sdk\/v2 -url script-request-header https://raw.githubusercontent.com/otherbanana/QuantumultX/main/File-js/jdcookie.js
 
 [mitm] 
 hostname = mars.jd.com
