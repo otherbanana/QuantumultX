@@ -11,7 +11,7 @@
 // $response.statusCode, $response.headers
 
 var modifiedHeaders = $response.headers;
-modifiedHeaders['Subscription-Userinfo'] = '';
+modifiedHeaders['Subscription-Userinfo'] = 'Banana';
 
 
 $done({headers : modifiedHeaders});
