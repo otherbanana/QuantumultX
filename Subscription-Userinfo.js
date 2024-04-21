@@ -9,8 +9,6 @@
 
 // $request.scheme, $request.method, $request.url, $request.path, $request.headers
 // $response.statusCode, $response.headers
-[MITM]
-hostname = vless.fxxk.dedyn.io, vless2sub.lxfproxy.top
 
 var modifiedHeaders = $response.headers;
 modifiedHeaders['Subscription-Userinfo'] = 'Banana';
