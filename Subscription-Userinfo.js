@@ -12,6 +12,5 @@
 
 var modifiedHeaders = $response.headers;
 modifiedHeaders['Subscription-Userinfo'] = 'Banana';
-
-
+console.log("请求头修改成功:", modifiedHeaders);
 $done({headers : modifiedHeaders});
