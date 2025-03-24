@@ -23,7 +23,7 @@ boxjs订阅: https://raw.githubusercontent.com/leiyiyan/resource/main/subscribe/
 7.运行后可自行选择关闭获取脚本，防止产生不必要的mitm。
 
 [Script]
-http-response ^https?:\/\/developer\.aliyun\.com\/developer\/api\/my\/user\/getUser script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/aliyun_web/aliyun_web_ck.js, requires-body=true, timeout=60, tag=阿里云同步青龙
+http-response ^https?:\/\/developer\.aliyun\.com\/developer\/api\/my\/user\/getUser script-path=https://raw.githubusercontent.com/otherbanana/QuantumultX/refs/heads/main/File-js/aliyun_web_ck.js, requires-body=true, timeout=60, tag=阿里云同步青龙
 
 [MITM]
 hostname = developer.aliyun.com
