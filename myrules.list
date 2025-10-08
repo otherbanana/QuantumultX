@@ -1,5 +1,21 @@
-HOST, api-access.pangolin-sdk-toutiao.com, REJECT
-HOST, cdn.88-f.net, REJECT
-HOST, aax-fe-sin.amazon-adsystem.com, REJECT
-HOST, generativelanguage.googleapis.com, OpenAI
+host, api-access.pangolin-sdk-toutiao.com, REJECT
+host, cdn.88-f.net, REJECT
+host, aax-fe-sin.amazon-adsystem.com, REJECT
+host, generativelanguage.googleapis.com, OpenAI
 
+; 放行国内 STUN 服务器
+host-suffix,stun.qq.com,direct
+host-suffix,stun.rtc.aliyun.com,direct
+host-suffix,stun.netease.im,direct
+
+; 放行国外 STUN 服务器
+host-suffix,stun.l.google.com,direct
+host-suffix,stun1.l.google.com,direct
+host-suffix,stun2.l.google.com,direct
+host-suffix,stun3.l.google.com,direct
+host-suffix,stun4.l.google.com,direct
+host-suffix,stun.services.mozilla.com,direct
+host-suffix,stunserver.org,direct
+
+; 放行包含 "stun" 关键字的域名
+host-keyword,stun,direct
