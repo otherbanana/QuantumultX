@@ -11,6 +11,9 @@
 // $response.statusCode, $response.headers
 
 var modifiedHeaders = $response.headers;
-modifiedHeaders['Subscription-Userinfo'] = 'Banana';
-console.log("请求头修改成功:", modifiedHeaders);
+
+// 直接删除指定的字段
+delete modifiedHeaders['Subscription-Userinfo'];
+
+// 结束修改，只返回处理后的 Headers，保持原有的 Status Code 不变
 $done({headers : modifiedHeaders});
