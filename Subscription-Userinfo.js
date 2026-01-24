@@ -14,6 +14,8 @@ var modifiedHeaders = $response.headers;
 
 // 直接删除指定的字段
 delete modifiedHeaders['Subscription-Userinfo'];
+delete modifiedHeaders['Subscription-userinfo'];
+delete modifiedHeaders['subscription-userinfo'];
 
 // 结束修改，只返回处理后的 Headers，保持原有的 Status Code 不变
 $done({headers : modifiedHeaders});
