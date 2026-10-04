@@ -5,10 +5,10 @@
 把下面两处 SCRIPT_URL 换成此文件的实际脚本地址（或 QX 支持的本地路径）。
 
 [rewrite_local]
-^https?:\/\/appgw\.huazhu\.com\/game\/ url script-request-header SCRIPT_URL
+^https?:\/\/appgw\.huazhu\.com\/game\/ url script-request-header https://raw.githubusercontent.com/otherbanana/QuantumultX/refs/heads/main/File-js/hzh.js
 
 [task_local]
-1 0 * * * SCRIPT_URL, tag=华住会, enabled=true
+1 0 * * * https://raw.githubusercontent.com/otherbanana/QuantumultX/refs/heads/main/File-js/hzh.js, tag=华住会, enabled=true
 
 [mitm]
 hostname = appgw.huazhu.com
